@@ -1,6 +1,3 @@
-# structster
-Structster - simple data structures javascript library
-
 # Structster.js
 Structster - simple data structures javascript library
 
