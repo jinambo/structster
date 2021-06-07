@@ -42,10 +42,10 @@ class Queue {
 
     constructor (head) {
         this.head = this.tail = new QueueNode(head)
-        this.nodePush(head)
+        this.nodeEnqueue(head)
     }
 
-    nodePush(data) {
+    nodeEnqueue(data) {
         let node = new QueueNode(data)
 
         // Set tail's next node
@@ -56,7 +56,7 @@ class Queue {
         this.array.push(this.head)
     }
 
-    nodePop() {
+    nodeDequeue() {
         this.array.shift()
         this.tail = this.tail.next
     }
@@ -166,11 +166,11 @@ console.log(stack)
 let queue = new Queue(1)
 
 for (let i = 2; i <= 10; i++) {
-    queue.nodePush(i)
+    queue.nodeEnqueue(i)
 }
 
-queue.nodePop()
-queue.nodePop()
+queue.nodeDequeue()
+queue.nodeDequeue()
 
 console.log(queue)
 
