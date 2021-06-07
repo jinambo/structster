@@ -1,5 +1,7 @@
 # Structster.js
 Structster - simple data structures javascript library
+The library is under development and more data structures will be added over time.
+
 
 ## Stack
 ##### Stack initialization
