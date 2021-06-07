@@ -5,56 +5,56 @@ Structster - simple data structures javascript library
 Structster - simple data structures javascript library
 
 ## Stack
-### Stack initialization
+##### Stack initialization
 ```javascript
 let stack = new Stack('<value of the first element>')
 ```
-### Push to the stack
+##### Push to the stack
 ```javascript
 stack.nodePush('<value>')
 ```
-### Pop from the stack
+##### Pop from the stack
 ```javascript
 stack.nodePop
 ```
 
 ## Queue
-### Queue initialization
+##### Queue initialization
 ```javascript
 let queue = new Queue('<value of the first element>')
 ```
-### Add to the queue
+##### Add to the queue
 ```javascript
 stack.nodeEnqueue('<value>')
 ```
 
-### Remove from the queue
+##### Remove from the queue
 ```javascript
 stack.nodeDequeue()
 ```
 
 ## Singly Linked List
-### Singly Linked List initialization
+##### Singly Linked List initialization
 ```javascript
 let list = new LinkedList()
 ```
-### Create new node and insert it at the beginning
+##### Create new node and insert it at the beginning
 ```javascript
 list.insertFirst('<value>')
 ```
-### Set active node
+##### Set active node
 ```javascript
 list.setActive('<value>')
 ```
-### Create new node and insert it behind the active node
+##### Create new node and insert it behind the active node
 ```javascript
 list.postInsert('<value>')
 ```
-### Delete the first node
+##### Delete the first node
 ```javascript
 list.deleteFirst()
 ```
-### Delete the node after the active one
+##### Delete the node after the active one
 ```javascript
 list.postDelete()
 ```
