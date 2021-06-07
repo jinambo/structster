@@ -12,7 +12,7 @@ stack.nodePush('<value>')
 ```
 ##### Pop from the stack
 ```javascript
-stack.nodePop
+stack.nodePop()
 ```
 
 ## Queue
